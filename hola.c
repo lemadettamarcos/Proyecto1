@@ -18,3 +18,4 @@ VBoxManage storagectl MiMaquina --name busSata --add sata
 VBoxManage storagectl MiMaquina --name busIde --add ide
 VBoxManage storageattach MiMaquina --storagectl busSata --port 0 --device 0 --type hdd --medium "VirtualBox VMs/MiMaquina/midisco.vdi"
 VBoxManage storageattach MiMaquina --storagectl busIde --port 0 --device 0 --type dvddrive --medium Baixades/ubuntu.iso
+_____
